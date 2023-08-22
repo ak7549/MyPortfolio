@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.textUtilsMain {
+  margin-top: 30px;
+  
+  margin: 30px 60px;
+
+  align-items: center;
+}
+
+.textUtilsMain .toasti{
+  width: 35vw;
+ 
+    
+}
+
+.textUtilsMain .textInput textarea {
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+}
+
+.textUtilsButton button {
+  margin: 23px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+}
+
+.textSummary{
+  background-color: green;
+  
+  
+}
+.textSummary h4{
+  color: white;
+}
+
+.textPreview{
+  overflow: auto;
+  background-color: green;
+  
+}
+
+.textPreview h4{
+ color: white;
+}
+
+
+
+@media screen and (max-width: 843px) {
+
+    .textUtilsMain .textInput textarea {
+       width: 100%;
+       font-size: small;
+       height: 20vh;
+      }
+      
+  
+}
+
+@media screen and (max-width: 767px) {
+    .textUtilsButton button {
+       display: flex;
+       flex-direction: column;
+       /* height: 15vh; */
+       width: 88%;
+       justify-content: center;
+       align-items: center;
+       
+      }
+     
+      .textUtilsMain {
+       
+        
+        margin: 30px 10px;
+      
+       
+      }
+      
+       
+  
+}
+
+
+@media screen and (max-width: 1415px) {
+  .textUtilsMain .toasti{
+    width: 50vw;
+   
+      
+  }
+  
+  
+}
+
+@media screen and (max-width: 993px) {
+  .textUtilsMain .toasti{
+    width: 70vw;
+   
+      
+  }
+  
+  
+}
+
+@media screen and (max-width: 703px) {
+  .textUtilsMain .toasti{
+    width: 90vw;
+   
+      
+  }
+  
+  
+}
+
+@media screen and (max-width: 557px) {
+  .textUtilsMain .toasti{
+    width: 100vw;
+    padding: 5px;
+    font-size: small;
+   
+      
+  }
+  
+  
+}
+
+@media screen and (max-width: 324px) {
+  .textUtilsMain .toasti{
+   
+    padding: 5px;
+    font-size: x-small;
+   
+      
+  }
+  
+  
+}
