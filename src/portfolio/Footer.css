@@ -1,0 +1,106 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Borel&family=Poppins&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Poppins&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=REM:wght@600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footerMain{
+    /* margin-top: 23px; */
+    /* width: 100%; */
+    /* height: 70vh; */
+    /* border: 2px  solid red; */
+    background-color: rgba(0, 0, 0, 0.854);
+   
+}
+
+.footerUp{
+     position: relative;
+     top: 10px;
+   /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    /* border: 2px solid red; */
+    color: white;
+    padding: 3px;
+   
+  
+}
+
+.footerUp .firstPara{
+    color: green;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.footerContact{
+    
+    position: relative;
+    /* top: 50px; */
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.footerContact button{
+    padding: 14px 23px;
+    background-color: #1780e8;
+    color: white;
+}
+
+.upperContent .secondHeading{
+    /* font-family: 'Cedarville Cursive', cursive; */
+    font-family: 'Cedarville Cursive', cursive;
+font-family: 'REM', sans-serif;
+
+}
+
+.footerContact button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footerLogo{
+    position: relative;
+    /* top: 100px; */
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+.footerLogo a{
+    color: white;
+    text-decoration: none;
+    /* font-size: 1.1rem; */
+    margin: 20px;
+    border-bottom: 3px solid green;
+}
+
+
+.copyright{
+    position: relative;
+    /* top:94px; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-family: 'Borel', cursive;
+   
+}

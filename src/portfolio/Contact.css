@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contactForm {
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  
+}
+
+.formLeft{
+   
+    width: 30%;
+    /* height: 80vh; */
+    /* border: 2px  solid RED; */
+    padding: 23px;
+    background-color:rgba(140, 224, 0, 0.84);
+    /* color: white; */
+
+}
+
+
+
+ .contactFormBtn{
+    margin-top: 23px;
+    padding: 12px 60px;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.582);
+    color: white;
+    
+}
+
+
+
+.formRight{
+    width: 30%;
+    /* height: 80vh; */
+    /* border: 2px  solid RED; */
+    padding: 69px 23px;
+    font-size: large;
+    border-radius: 0px;
+background: #c2ad24;
+box-shadow:  50px 50px 100px #4e450e,
+             -50px -50px 100px #ffff3a;
+
+}
+
+.formRight h1{
+    margin-bottom: 23px;
+}
+
+.formRight h4{
+    padding: 15px 0;
+}
+
+.formRight span{
+    margin-top: 10px;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .contactForm {
+        flex-direction: column;
+      
+        align-items: center;
+        padding: 15px;
+    }
+
+  
+    .formLeft{
+   
+        width: 100%;
+      
+    
+    }
+    .formRight{
+        width: 100%;
+        margin-top: 30px;
+      
+    
+    }
+
+    .formRight h4{
+        padding: 5px 0;
+    }
+    
+
+ 
+    
+    
+}
+
+@media screen and (max-width: 480px) {
+    .formRight{
+      
+        padding: 69px 15px;
+        font-size: small;
+       
+    
+    }
+
+  
+}
+
+@media screen and (max-width: 369px) {
+    .formRight{
+      
+        padding: 69px 15px;
+        font-size: x-small;
+       
+    
+    }
+
+
+  
+}
+
+@media screen and (max-width: 311px) {
+
+  
+    .formRight{
+      
+        padding: 40px 0;
+       
+        font-size: 0.5rem;
+       
+    
+    }
+
+}

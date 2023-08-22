@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.projectHeading {
+  text-align: center;
+}
+
+.projectComponent {
+  font-size: x-large;
+}
+
+.projectComponent .todoStyle {
+  color: white;
+  text-decoration: none;
+  margin: 23px;
+  border-style: dotted;
+  background-color: green;
+}
+
+@media screen and (max-width: 767px) {
+  .projectComponent {
+    display: flex;
+    flex-direction: column;
+  }
+}

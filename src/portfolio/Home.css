@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.homeMain{
+    /* height: 100vh; */
+    background-color: green;
+    padding: 4px 23px;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+  
+
+}
+
+.homeLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.homeContent{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    
+}
+
+.homeUp{
+   
+    width: 220px;
+    height: 220px;
+    /* border: 2px solid red; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-clip-path: circle(50% at 50% 50%);
+clip-path: circle(50% at 50% 50%);
+    
+}
+
+.homeDown{
+    /* width: 30vw; */
+    /* height: 15vh; */
+    /* border: 2px solid red; */
+    text-align: center;
+    color: white;
+}
+
+.homeDown a{
+   
+    color: white;
+    padding: 5px;
+}
+
+
+.homeBtn{
+   
+    display: flex;
+    justify-content: center;
+  
+}
+
+.twobtn{
+    margin-top: 23px;
+}
+
+
+
+
+.twobtn button{
+        margin: 10px;
+        padding: 10px;
+        border-radius: 15px;
+        
+}
+
+.twobtn button:hover{
+    background-color: #bfff00;
+    
+   
+    
+}
+
+
+
+
+.twobtn button a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 313px) {
+    .twobtn{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        
+    
+    }
+    
+    
+  
+}
